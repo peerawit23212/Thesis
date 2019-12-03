@@ -15,6 +15,7 @@
 	color: white;
 }
 #textbot{
+	font-size :22px;
 	margin-top:50px;
 	text-align :center;
 }
@@ -27,10 +28,11 @@
 	width:10px;
 }
 .img-container{
-margin-left:10px;
-margin-top:10px;
+margin-left:20%;
+margin-top:20%;
 }
 
 #micbot:hover{
-	
+	height: 55px;
+	width: 55px;
 }
