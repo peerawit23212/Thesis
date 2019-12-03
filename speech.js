@@ -11,8 +11,10 @@ recognition.onspeechend = function (){
 }
 
 window.onload = function(){
-    document.getElementById("micbot").onclick = function(){
-   recognition.start();
+    document.getElementById("micbot").onclick = function(){  
+     recognition.start();
+     responsiveVoice.speak("ช่วงนี้เป็นยังไงบ้าง", "Thai Female");
+   
 }
 }
 
@@ -25,11 +27,9 @@ recognition.onresult = function(event) {
    console.log('Prob:', speechRecognitionAlternative.confidence)
    if(speechRecognitionAlternative.transcript == "ไม่ค่อยดีเท่าไหร่"){
    document.getElementById("textbot").innerHTML = "งั้นเรามาลองคุยกันดูนะเผื่อจะดีขึ้น";
-   responsiveVoice.speak("งั้นเรามาลองคุยกันดูนะเผื่อจะดีขึ้น");
+   responsiveVoice.speak("งั้นเรามาลองคุยกันดูนะ......เผื่อจะดีขึ้น", "Thai Female");
    }
-   else if(speechRecognitionAlternative.transcript == "ก็โอเคนะ"){
-	document.getElementById("textbot").innerHTML = "งั้นก็ดีแล้ว";
-   }
+   
   }
  }
 }
