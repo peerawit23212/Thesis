@@ -1,0 +1,36 @@
+﻿body
+{
+	background-color : #2ADEFF;
+	font-family:"Prompt";
+}
+#micbot {
+	margin:0 auto;
+	height: 50px;
+	width:50px;
+	border-radius :75px;
+	background-color : #FFD600;
+}
+.output {
+	
+	color: white;
+}
+#textbot{
+	margin-top:50px;
+	text-align :center;
+}
+#whitebutton{
+	background-color:white;
+	border-radius :35px;
+	margin-left:20px;
+	padding-top:10px;
+	height:10px;
+	width:10px;
+}
+.img-container{
+margin-left:10px;
+margin-top:10px;
+}
+
+#micbot:hover{
+	
+}
