@@ -13,7 +13,7 @@ recognition.onspeechend = function (){
 window.onload = function(){
     document.getElementById("micbot").onclick = function(){
    recognition.start();
-responsiveVoice.speak("hello world");
+responsiveVoice.speak("What");
 }
 }
 
