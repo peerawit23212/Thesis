@@ -13,13 +13,13 @@ recognition.onspeechend = function (){
 window.onload = function(){
     document.getElementById("micbot").onclick = function(){
    recognition.start();
-   var utterance = new SpeechSynthesisUtterance("Hello");
+   /*var utterance = new SpeechSynthesisUtterance("Hello");
 utterance.lang = 'th-TH'
 utterance.pitch = 1
 utterance.rate = 1
-speechSynthesis.speak(utterance)
+speechSynthesis.speak(utterance)*/
+responsiveVoice.speak("hello world");
 }
-
 }
 
 recognition.onresult = function(event) {
